@@ -1,0 +1,86 @@
+/* ? variable */
+:root {
+  --primary: #ffc636;
+  --secondary: #0a0b5b;
+}
+
+/* ? reset */
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background: var(--secondary);
+  overflow-x: hidden;
+  font-family: "Rubik Regular";
+}
+
+li {
+  list-style-type: none;
+}
+
+/* ? base style */
+@font-face {
+  font-family: "Rubik Regular";
+  src: url("/public/assets/fonts/Rubik-Regular.ttf") format("ttf");
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #dddbff;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+p,
+a,
+li {
+  color: #9893d8;
+  line-height: 1.4em; /*? space between text */
+  font-size: 1em;
+}
+h1,
+h3 {
+  font-size: 1.2em;
+}
+h2 {
+  font-size: 1.3em;
+}
+h4 {
+  font-size: 1.1em;
+}
+.button {
+  margin-top: 10px;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background: none;
+  padding: 6px 12px;
+  box-shadow: 1px 1px 2px var(--primary);
+  display: inline-block;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 20px; /*? round border*/
+}
+.button:hover {
+  color: #222;
+}
+.text-p {
+  font-size: 0.8;
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 2px solid #9893d8;
+  color: #f2f2f2;
+  font-size: 1em;
+}
+/* ? mobile */
+/* ? laptop */
